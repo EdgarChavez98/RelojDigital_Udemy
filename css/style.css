@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3cm;
+}
+
+.container{
+    display:flex;
+    height: 300px;
+    width: 600px;
+    background-color: rgb(37, 146, 146);
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    margin: 100px auto;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px 1px #6b6b6b;
+}
+
+.container p{
+    color: white;
+    background-color: rgb(37, 146, 146);
+    margin: 0;
+}
+
+.fecha{
+    color: white;
+    background-color: rgb(37, 146, 146);
+    font-size: 50px;
+    margin: 0;
+}
